@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /* Header Section */
 
 header {
@@ -79,6 +83,11 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 0;
+}
+
+.searchBar:hover {
+  border: 1px solid rgba(192, 187, 187, 0.5);
+  box-shadow: 1.5px 1.5px 5px #888888;
 }
 
 #search {
